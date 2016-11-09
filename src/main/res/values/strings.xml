@@ -31,4 +31,10 @@
     <string name="prompt">Selections</string>
     <string name="title_activity_base__creator">Base_Creator</string>
     <string name="title_activity_donators">Donators</string>
+    <string name="title_activity_zerg">ZergActivity</string>
+    <string name="title_activity_terran">TerranActivity</string>
+    <string name="title_activity_protoss">ProtossActivity</string>
+    <string name="title_activity_terran_create">TerranCreateActivity</string>
+    <string name="title_activity_zerg_create">ZergCreateActivity</string>
+    <string name="title_activity_protoss_create">ProtossCreateActivity</string>
 </resources>

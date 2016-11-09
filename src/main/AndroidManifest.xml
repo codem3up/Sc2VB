@@ -15,6 +15,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ZergActivity"
+            android:label="@string/title_activity_zerg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TerranActivity"
+            android:label="@string/title_activity_terran"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProtossActivity"
+            android:label="@string/title_activity_protoss"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TerranCreateActivity"
+            android:label="@string/title_activity_terran_create"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ZergCreateActivity"
+            android:label="@string/title_activity_zerg_create"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProtossCreateActivity"
+            android:label="@string/title_activity_protoss_create"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

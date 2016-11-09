@@ -14,29 +14,29 @@
         android:layout_alignEnd="@+id/button1"
         android:layout_weight="1">
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/zergBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:src="@drawable/zergbtn"
-            android:onClick="zergClick"
+            android:onClick="selectRace"
             android:adjustViewBounds="true"/>
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/terranBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:src="@drawable/terranbtn"
-            android:onClick="terranClick"/>
+            android:onClick="selectRace"/>
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/protossBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:src="@drawable/protossbtn"
-            android:onClick="protossClick"/>
+            android:onClick="selectRace"/>
 
     </LinearLayout>
 
